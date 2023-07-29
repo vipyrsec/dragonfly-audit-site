@@ -10,10 +10,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.5" PrivateAssets="all" />
+    <PackageReference Include="Radzen.Blazor" Version="4.14.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include=".github\workflows\deploy.yaml" />
+    <Content Include=".github\workflows\deploy-site.yaml" />
   </ItemGroup>
 
 </Project>
